@@ -1,6 +1,6 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
-import { FaArrowDown } from "react-icons/fa";
+
 import CardHero from "./CardHero";
 import { AiOutlinePhone } from "react-icons/ai";
 import { TbCertificate } from "react-icons/tb";
