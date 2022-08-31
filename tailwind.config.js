@@ -47,6 +47,24 @@ module.exports = {
           '100%': {
             opacity: '0'
           }
+        },
+        slideright: {
+          '0%': {
+            width: '0'
+          },
+          '100%': {
+            width: '12rem',
+          }
+        },
+        slideleft: {
+          '0%': {
+            width: '12rem'
+          },
+          '100%': {
+            width: '0',
+            visibility: 'hidden'
+
+          }
         }
       }
     },

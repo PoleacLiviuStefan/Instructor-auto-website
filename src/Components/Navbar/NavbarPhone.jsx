@@ -33,7 +33,7 @@ const NavbarPhone = () => {
       <div
         className={` ${
           !hamburgerClicked && "hidden"
-        }  absolute text-white   left-0 bg-slate-800   items-center  h-screen w-[12rem]`}
+        }  absolute text-white    bg-slate-800   items-center  h-screen w-[12rem ] whitespace-nowrap animate-[slideright_.4s_ease-in-out_forwards]`}
       >
         <Fade>
           <div className="relative top-4">
