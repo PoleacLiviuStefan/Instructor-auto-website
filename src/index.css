@@ -9,6 +9,7 @@ html {
   overflow-x: hidden;
 
   max-width: 100%;
+  max-height: 100%;
 }
 body {
   margin: 0;

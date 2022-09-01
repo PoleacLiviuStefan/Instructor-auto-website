@@ -18,7 +18,7 @@ const Footer = () => {
         <div className="relative text-white ml-10">
           <h2 className="text-md lg:text-lg font-semibold"> CONTACT</h2>
           <span className="absolute w-[4.2rem] lg:w-[5rem] h-[2px] top-12 lg:top-7   bg-cyan-400 rounded-xl   " />
-          <div className="relative top-8">
+          <div className="relative top-8 md:top-2">
             <h3 className="text-sm">Email:</h3>
             <h3 className="text-sm">Telefon: 0767 623 030</h3>
           </div>

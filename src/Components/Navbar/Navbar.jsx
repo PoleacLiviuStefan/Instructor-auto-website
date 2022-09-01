@@ -20,11 +20,11 @@ const Navbar = () => {
   }, []);
   setInterval(() => {
     if (window.pageYOffset > 1000 && window.pageYOffset < 2701) setUnderBar(0);
-    else if (window.pageYOffset > 2700 && window.pageYOffset < 3700)
+    else if (window.pageYOffset > 2700 && window.pageYOffset < 3500)
       setUnderBar(1);
-    else if (window.pageYOffset >= 3700 && window.pageYOffset <= 4800)
+    else if (window.pageYOffset >= 3500 && window.pageYOffset <= 4900)
       setUnderBar(2);
-    else if (window.pageYOffset > 4800 && window.pageYOffset < 5303)
+    else if (window.pageYOffset > 4900 && window.pageYOffset < 5303)
       setUnderBar(3);
   }, 1000);
 
@@ -78,7 +78,7 @@ const Navbar = () => {
             to="permis"
             spy={true}
             smooth={true}
-            offset={-100}
+            offset={-70}
           >
             <h2 className="relative text-lg px-8  font-sans-serif cursor-pointer  hover:text-slate-200 ">
               Obținere permis
@@ -94,7 +94,7 @@ const Navbar = () => {
             to="Tarife"
             spy={true}
             smooth={true}
-            offset={-100}
+            offset={0}
           >
             <h2 className="text-lg px-8  font-regular font-sans-serif  cursor-pointer hover:text-slate-200 ">
               Tarife
@@ -110,7 +110,7 @@ const Navbar = () => {
             to="Contact"
             spy={true}
             smooth={true}
-            offset={-250}
+            offset={-150}
           >
             <h2 className="relative text-lg px-8  font-sans-serif cursor-pointer hover:text-slate-200 ">
               Contact

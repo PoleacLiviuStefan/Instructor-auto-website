@@ -13,10 +13,10 @@ const Contact = () => {
             className="flex w-[22rem]  lg:w-[75rem] bg-white h-[40rem] shadow-[5px_5px_38px_5px_rgba(0,0,0,0.72)]"
           >
             <div className="absolute lg:relative flex justify-center items-center lg:h-full h-[7rem] w-full lg:w-[20rem] bg-gradient-to-t from-sky-600 to-sky-300 text-white">
-              <h1 className="absolute lg:top-[10rem] text-2xl lg:text-4xl font-bold  lg:mt-10  ">
+              <h1 className="absolute lg:top-[15rem] text-2xl lg:text-4xl font-bold  lg:mt-10  ">
                 Ai o întrebare?
               </h1>
-              <h2 className="absolute top-20 lg:top-[16rem] text-xl">
+              <h2 className="absolute top-20 lg:top-[21rem] text-xl">
                 Nu ezita să mă întrebi!
               </h2>
             </div>
