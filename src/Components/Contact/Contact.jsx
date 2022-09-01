@@ -52,7 +52,7 @@ const Contact = () => {
               </button>
             </form>
             <div className="absolute bottom-0  flex justify-center items-center w-full  lg:w-[15rem] h-[5rem] lg:h-full  bg-gradient-to-t from-sky-600 to-sky-300 text-white right-0 ">
-              <a href="tel:+40-753-616-640">
+              <a href="tel:+40-767-623-030">
                 {" "}
                 <div className="flex text-lg lg:text-xl">
                   <BsTelephone className="relative top-[3px]" />
