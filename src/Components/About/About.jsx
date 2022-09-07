@@ -17,26 +17,7 @@ const About = () => {
       </Slide>
       <Fade delay={400}>
         <p className="relative top-24 lg:w-[70rem] w-[80%] text-justify">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
-          rhoncus justo in tristique accumsan. Integer vehicula, eros vitae
-          viverra interdum, turpis leo gravida lectus, quis semper magna arcu
-          efficitur lacus. Mauris et scelerisque erat. In vitae pretium massa,
-          eget sollicitudin leo. Quisque tempor vitae tellus eget aliquet. Sed
-          volutpat at lacus semper tempus. Aliquam suscipit venenatis euismod.
-          Maecenas vitae ligula est. Etiam cursus sollicitudin mauris quis
-          consequat. In porttitor non purus a laoreet. Phasellus sagittis sem
-          mi, varius euismod ligula laoreet at. Nulla ultricies eros purus, nec
-          ultrices nisi varius et. Vivamus id consectetur nulla. Class aptent
-          taciti sociosqu ad litora torquent per conubia nostra, per inceptos
-          himenaeos. Nunc laoreet et nulla a aliquet. Nullam sit amet enim
-          pharetra, gravida ex ut, consectetur felis. Sed dignissim, nisl et
-          dictum pharetra, enim nibh egestas felis, quis fermentum turpis urna
-          sed orci. Duis ut molestie nisi, quis molestie mi. Etiam sodales lorem
-          lacus, a convallis orci aliquam sit amet. Nullam placerat posuere
-          sodales. In iaculis, nulla eget sollicitudin interdum, tortor elit
-          vehicula mauris, ac faucibus mi mauris ac magna. Phasellus eu sem
-          cursus, ornare arcu vel, iaculis risus. Nulla sit amet tellus non nisl
-          faucibus volutpat quis vitae dui. In venenatis tellus.
+          Instructor, 42 ani, cu atestat de instructor din 2009.
         </p>
       </Fade>
     </div>

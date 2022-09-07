@@ -26,8 +26,8 @@ const CarCard = ({ bordercolor, backgr, description }) => {
       <div className="w-full h-full ">
         <div
           className={` ${
-            show ? "animate-[sideright_.5s_ease-in-out_forwards]" : "w-[2rem]"
-          } relative whitespace-nowrap flex items-center rounded-lg font-bold top-0 z-10 bg-opacity-80 bg-white   h-[10rem] text-center  `}
+            show ? "animate-[sideright_.5s_ease-in-out_forwards]" : "w-[1.5rem]"
+          } relative whitespace-nowrap flex items-center rounded-lg font-bold top-0 z-10 bg-opacity-60 bg-white   h-[10rem] text-center  `}
         >
           <h2
             className={`${

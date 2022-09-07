@@ -18,13 +18,13 @@ const Car = () => {
             <h1 className="relative left-[-5rem] text-lg lg:left-[5rem] lg:w-[50rem] w-[10rem]  text-white  h-[7rem]    lg:text-3xl  font-bold top-32">
               Volkswagen Polo S Cross 2008 1.9 TDI Cutie Manuală
               <div className="bg-presentation bg-no-repeat bg-cover   absolute top-[-2rem] lg:top-[-7rem] left-[10rem]  lg:left-[45rem] w-[10rem] lg:w-[20rem] h-[7.5rem] lg:h-[15rem]"></div>
-              <span className="absolute w-[8rem] lg:w-[20rem] lg:w-[6rem] h-[2px] bg-cyan-400 rounded-xl top-24 left-0 lg:top-14 lg:left-[35rem]  " />
+              <span className="absolute w-[8rem]  lg:w-[6rem] h-[2px] bg-cyan-400 rounded-xl top-24 left-0 lg:top-14 lg:left-[35rem]  " />
             </h1>
           </div>
         </Fade>
         <Fade right delay={400}>
           <div className="relative bg-slate-700  w-full flex justify-center h-[17rem]">
-            <h1 className="relative left-[5rem] lg:w-[50rem] text-lg w-[10rem] lg:left-[-5rem]  text-white lg:text-2xl h-[7rem]    lg:text-3xl  font-bold top-32">
+            <h1 className="relative left-[5rem] lg:w-[50rem] text-lg w-[10rem] lg:left-[-5rem]  text-white lg:text-3xl h-[7rem]      font-bold top-32">
               Volkswagen Touran 2008 2.0 TDI Cutie Automată.
               <div className="bg-presentationleft bg-no-repeat bg-cover  absolute top-[-2rem] lg:top-[-7rem] left-[-11rem]  lg:left-[-20rem] w-[10rem] lg:w-[20rem] h-[7.5rem] lg:h-[15rem]"></div>
               <span className="absolute w-[8rem]  lg:w-[6rem] h-[2px] bg-cyan-400 rounded-xl top-24 left-0 lg:top-14 lg:left-5  " />
