@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="absolute flex w-full justify-center h-[10rem] bg-slate-800 top-[540rem] lg:top-[385rem]">
+    <div className="absolute flex w-full justify-center h-[10rem] bg-slate-800 top-[570rem] lg:top-[415rem]">
       <span className="absolute top-0 w-full h-[3px] bg-cyan-500" />
       <div className="relative flex w-[20rem] justify-center lg:w-[35rem] mt-4 top-0">
         <div className="text-white">

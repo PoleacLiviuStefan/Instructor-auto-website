@@ -11,7 +11,7 @@ const NavbarPhone = () => {
     <div className="flex lg:hidden fixed left-0 top-0 z-50 w-full h-[10rem]">
       <div
         onClick={hamburgerHandle}
-        className="fixed flex z-50 flex-col w-full top-4 left-8 "
+        className="absolute flex z-50 w-[4rem] h-[3rem] flex-col  top-4 left-8 "
       >
         <div
           className={`${

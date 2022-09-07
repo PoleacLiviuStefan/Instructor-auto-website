@@ -4,7 +4,7 @@ const DrivingDocuments = () => {
   return (
     <div
       name="permis"
-      className="absolute lg:h-[50rem] h-[120rem] text-white w-full bg-slate-800 bg-opacity-40 top-[280rem] lg:top-[185rem] flex-col md:flex-row flex justify-center"
+      className="absolute lg:h-[50rem] h-[120rem] text-white w-full bg-slate-800 bg-opacity-40 top-[300rem] lg:top-[210rem] flex-col md:flex-row flex justify-center"
     >
       <Fade delay={300}>
         <div className="relative md:left-0 left-6 top-8 w-[19rem] md:w-[60rem] ">

@@ -5,7 +5,7 @@ import { BsTelephone } from "react-icons/bs";
 
 const Contact = () => {
   return (
-    <div className="absolute flex   justify-center bg-slate-100  top-[490rem] lg:top-[335rem] w-full h-[50rem]">
+    <div className="absolute flex   justify-center bg-slate-100  top-[520rem] lg:top-[365rem] w-full h-[50rem]">
       <div className="w-full h-full flex items-center justify-center">
         <Slide left delay={200}>
           <div

@@ -7,7 +7,16 @@ module.exports = {
     extend: {
       backgroundImage: {
         'hero': "url('/public/2021-11-04.jpg')",
-        'car': "url('/public/Volkswagen_Jetta_registered_March_2002_1984cc_02.jpg')"
+        'car': "url('/public/Volkswagen_Jetta_registered_March_2002_1984cc_02.jpg')",
+        'heromobile': "url('/public/phonehero.jpg')",
+        'presentation': "url('/public/presentationcar.png')",
+        'interior': "url('/public/interor.jpg')",
+        'exterior': "url('/public/exterior2.jpg')",
+        'presentationleft': "url('/public/presentationcarleft.png')",
+        'exterior3': "url('/public/exterior3.jpg')",
+        'automata1': "url('/public/automata1.jpg')",
+        'automata2': "url('/public/automata2.jpg')",
+        'automata3': "url('/public/automata3.jpg')"
       },
       keyframes: {
         loading: {
@@ -20,14 +29,15 @@ module.exports = {
         },
         sideright: {
           '0%': {
-            left: '-20rem',
+            width: '2rem',
+            whitespace: "no-wrap",
             opacity: '0'
           },
-          '76%': {
+          '30%': {
             opacity: '0'
           },
           '100%': {
-            left: '0',
+            width: '10.5rem',
             opacity: '1'
           }
         },

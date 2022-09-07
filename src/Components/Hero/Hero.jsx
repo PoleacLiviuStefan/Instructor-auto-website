@@ -17,13 +17,13 @@ import Prices from "../Prices/Prices";
 import Footer from "../Footer/Footer";
 const Hero = () => {
   return (
-    <div className="absolute top-0 flex justify-center items-center w-[100%] h-[400rem] lg:h-[250rem]">
+    <div className="absolute top-0 flex justify-center items-center  w-[100%] h-[420rem] lg:h-[270rem]">
       <div
         name="top"
         className="absolute  z-20 top-0 h-[6rem] w-full bg-gradient-to-b from-black to-transparent "
       />
 
-      <div className="relative bg-fixed  flex justify-center bg-hero drop-shadow-2xl bg-no-repeat bg-cover w-full top-0 h-full">
+      <div className="relative bg-fixed  flex justify-center bg-heromobile  md:bg-hero drop-shadow-2xl bg-no-repeat bg-cover w-full top-0 h-full">
         <div
           className="relative top-[20rem]
      text-white text-center"
