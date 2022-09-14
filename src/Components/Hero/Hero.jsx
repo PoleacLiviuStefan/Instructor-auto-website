@@ -57,10 +57,10 @@ const Hero = () => {
         </div>
         <div className="absolute justify-around  w-[25rem] md:w-[90rem] flex flex-col items-center lg:flex-row mb-[15rem] top-[50rem] ">
           <Slide right>
-            <a href="tel:+40-767-623-030">
+            <a href="tel:+40-761-300-344">
               <CardHero
                 slider="right"
-                title="Telefon: 0767 623 030"
+                title="Telefon: 0761 300 344"
                 logo={<AiOutlinePhone />}
               />
             </a>
@@ -75,7 +75,7 @@ const Hero = () => {
           <Slide left>
             <CardHero
               slider="left"
-              title="85% Rată De Promovabilitate"
+              title="+75% Rată De Promovabilitate"
               logo={<AiOutlineCheck />}
             />
           </Slide>

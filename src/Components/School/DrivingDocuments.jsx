@@ -1,5 +1,6 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
+import { BsChevronDown } from "react-icons/bs";
 const DrivingDocuments = () => {
   return (
     <div
@@ -76,13 +77,27 @@ const DrivingDocuments = () => {
             </li>
           </ul>
         </div>
-        <div className="relative flex left-16 justify-center">
+        <div className="relative top-20 flex left-16 justify-center">
+          <h2 className="absolute top-0 w-[22rem] text-center font-bold left-[-3rem] lg:left-0 text-2xl">
+            Locația unde se desfășoară orele de legislație
+          </h2>
+          <div className="absolute right-[6rem] animate-[animarrow_1s_ease-in-out_infinite] ">
+            <i className=" flex flex-col absolute text-2xl top-[2rem]   ">
+              <BsChevronDown />
+            </i>
+            <i className=" flex flex-col absolute text-2xl top-[2.5rem] text-slate-200 ">
+              <BsChevronDown />
+            </i>
+            <i className=" flex flex-col absolute text-2xl top-[3rem] text-slate-400  ">
+              <BsChevronDown />
+            </i>
+          </div>
           <iframe
-            className="relative drop-shadow-xl   md:left-28 top-28 mr-32 "
+            className="relative top-20 left-[-4rem] lg:left-[0rem]"
             width="400"
             height="400"
             id="gmap_canvas"
-            src="https://maps.google.com/maps?q=Romania%20Buzau&t=&z=13&ie=UTF8&iwloc=&output=embed"
+            src="https://maps.google.com/maps?q=Str.%20Victoriei,nr%2042&t=&z=15&ie=UTF8&iwloc=&output=embed"
             frameborder="0"
             scrolling="no"
             marginheight="0"

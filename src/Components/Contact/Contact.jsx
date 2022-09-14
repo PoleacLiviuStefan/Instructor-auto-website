@@ -87,11 +87,11 @@ const Contact = () => {
             <div className="absolute bottom-0  flex justify-center items-center w-full  lg:w-[15rem] h-[5rem] lg:h-full  bg-gradient-to-t from-sky-600 to-sky-300 text-white right-0 ">
               {" "}
               <div className="flex lg:flex-col text-lg lg:text-xl">
-                <a href="tel:+40-767-623-030">
+                <a href="tel:+40-761-300-344">
                   <BsTelephone className="relative text-xl top-2 lg:top-[10px] right-2" />
 
                   <h1 className="px-4 relative left-2 top-[-1rem]">
-                    0767 623 030
+                    0761 300 344
                   </h1>
                 </a>
                 <a

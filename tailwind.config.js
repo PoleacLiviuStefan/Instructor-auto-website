@@ -75,7 +75,16 @@ module.exports = {
             visibility: 'hidden'
 
           }
-        }
+        },
+        animarrow: {
+          '0%': {
+            top: '0rem'
+          },
+          '100%': {
+            top: '.5rem'
+
+          }
+        },
       }
     },
   },
