@@ -56,7 +56,7 @@ const Hero = () => {
           </Fade>
         </div>
         <div className="absolute justify-around  w-[25rem] md:w-[90rem] flex flex-col items-center lg:flex-row mb-[15rem] top-[50rem] ">
-          <Slide right>
+       
             <a href="tel:+40-761-300-344">
               <CardHero
                 slider="right"
@@ -64,21 +64,21 @@ const Hero = () => {
                 logo={<AiOutlinePhone />}
               />
             </a>
-          </Slide>
-          <Slide top>
+        
+       
             <CardHero
               slider="top"
               title="Permis Categoria B"
               logo={<TbCertificate />}
             />
-          </Slide>
-          <Slide left>
+         
+        
             <CardHero
               slider="left"
               title="+75% Rată De Promovabilitate"
               logo={<AiOutlineCheck />}
             />
-          </Slide>
+          
         </div>
 
         <About />
