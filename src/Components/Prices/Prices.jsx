@@ -90,44 +90,14 @@ const Prices = () => {
                 </h2>
               </div>
               <div className="mt-16 ml-3 lg:ml-24 w-[8rem] lg:w-[20rem]">
-                <h2 className="text-xl lg:text-2xl text-center ">1800 RON</h2>
+                <h2 className="text-xl lg:text-2xl text-center ">2000 RON</h2>
               </div>
               <div className="mt-16  lg:ml-20 w-[8rem] lg:w-[20rem]">
-                <h2 className="text-xl lg:text-2xl text-center ">2100 RON</h2>
-              </div>
-            </div>
-            <div className="grid grid-cols-3 h-[10rem]">
-              <div className="mt-8 lg:mt-16 w-[6rem] lg:w-[20rem]">
-                <h2 className=" text-lg lg:text-xl text-left relative left-6 lg:left-2">
-                  Participare cu mașina școlii la examen
-                </h2>
-              </div>
-              <div className="mt-8 lg:mt-16 w-[6rem] lg:w-[20rem] lg:ml-24">
-                <h2 className="relative left-4  text-lg  lg:text-xl text-center">
-                  200 RON se achită în ziua examenului
-                </h2>
-              </div>
-              <div className="mt-8 lg:mt-16 w-[6rem] lg:w-[20rem] lg:ml-24">
-                <h2 className="relative left-4  text-lg  lg:text-xl text-center">
-                  200 RON se achită în ziua examenului
-                </h2>
-              </div>
-            </div>
-            <div className="grid grid-cols-3 bg-slate-700 h-[10rem]">
-              <div className="mt-4 lg:mt-16 w-[6rem] lg:w-[20rem]">
-                <h2 className="text-lg lg:text-xl  text-left relative left-6 lg:left-2">
-                  O ședintă de șofat suplimentară (1h si 30 min)
-                </h2>
-              </div>
-              <div className="mt-16 w-[8rem] lg:w-[20rem] lg:ml-24">
-                <h2 className="text-lg lg:text-xl text-center">100 RON</h2>
-              </div>
-              <div className="mt-16 w-[8rem] lg:w-[20rem] lg:ml-24">
-                <h2 className="text-lg lg:text-xl text-center">120 RON</h2>
+                <h2 className="text-xl lg:text-2xl text-center ">2000 RON</h2>
               </div>
             </div>
           </div>
-          <div className="relative top-32 left-8  lg:left-[-2rem]">
+          <div className="relative top-44 left-8  lg:left-[-2rem]">
             <ul className="text-xl lg:text-2xl list-disc lg:mr-0 mr-20">
               <li>ORAR FLEXIBIL - în functie de programul dumneavoastră.</li>
               <li className="relative top-4">

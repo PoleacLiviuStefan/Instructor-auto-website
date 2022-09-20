@@ -16,8 +16,18 @@ const About = () => {
         </div>
       </Slide>
       <Fade delay={400}>
-        <p className="relative top-24 lg:w-[70rem] w-[80%] text-justify">
-          Instructor, 42 ani, cu atestat de instructor din 2009.
+        <p className="relative top-24 leading-6 lg:w-[50rem] w-[80%] text-justify">
+          Numele meu este Ciprian Diculescu, am 42 de ani și sunt instructor
+          auto atestat încă din 2009.Scopul meu este de a te ajuta în învățarea
+          adecvată a artei condusului pentru dobândirea permisului de categoria
+          B.
+          <br />
+          Deprinderea cu succes a manevrelor auto reprezintă o prioritate pentru
+          mine, deoarece un început corect te poate ajuta să circuli în
+          siguranță și cu încredere.
+          <br />
+          Te ajut să devii un șofer, nu doar un conducător de autoturism.Ce mai
+          aștepți?Contactează-mă și începem numaidecât!
         </p>
       </Fade>
     </div>
