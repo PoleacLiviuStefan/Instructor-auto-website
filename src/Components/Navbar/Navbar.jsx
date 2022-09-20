@@ -45,6 +45,7 @@ const Navbar = () => {
               spy={true}
               smooth={true}
               offset={-70}
+              duration={500}
             >
               <h1 className="opacity-0 lg:opacity-100">
                 CIPRIAN

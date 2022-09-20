@@ -28,9 +28,6 @@ const DrivingDocuments = () => {
             </li>
           </ul>
 
-          <h2 className="relative left-2 text-md">
-            Mașină: <span className="text-sky-500"></span>
-          </h2>
           <h2 className="relative left-6 text-xl font-bold mt-4 ">
             Programul de lucru pentru orele de{" "}
             <span className="text-sky-500">legislație rutieră</span>:

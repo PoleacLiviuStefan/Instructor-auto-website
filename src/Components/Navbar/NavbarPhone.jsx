@@ -38,7 +38,6 @@ const NavbarPhone = () => {
         <Fade>
           <div className="relative top-4">
             <Link
-              cla
               activeClass="active"
               to="About"
               spy={true}
@@ -56,6 +55,7 @@ const NavbarPhone = () => {
               spy={true}
               smooth={true}
               offset={-100}
+              delay={0}
             >
               <h2 className="relative text-lg top-[6rem] px-8  font-sans-serif cursor-pointer  hover:text-slate-200 ">
                 Obținere permis

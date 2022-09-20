@@ -9,7 +9,6 @@ html {
   overflow-x: hidden;
   max-width: 100%;
   max-height: 100%;
-  scroll-behavior: smooth;
 }
 body {
   margin: 0;
