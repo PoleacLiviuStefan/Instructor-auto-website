@@ -1,6 +1,6 @@
 import Hero from "./Components/Hero/Hero";
 import Navbar from "./Components/Navbar/Navbar";
-import Testimonials from "./Components/Testimonials/Testimonials";
+
 import { useState, useEffect } from 'react';
 import About from "./Components/About/About";
 import ClipLoader from "react-spinners/ClipLoader";

@@ -94,12 +94,13 @@ const DrivingDocuments = () => {
             width="400"
             height="400"
             id="gmap_canvas"
-            src="https://maps.google.com/maps?q=Str.%20Victoriei,nr%2042&t=&z=15&ie=UTF8&iwloc=&output=embed"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2813.9209846613126!2d26.829501215509723!3d45.14819697909853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b15fd72c20d7a5%3A0xeefec5c823a89e91!2sStrada%20Victoriei%2042%2C%20Buz%C4%83u!5e0!3m2!1sen!2sro!4v1665512997533!5m2!1sen!2sro"
             frameborder="0"
             scrolling="no"
             marginheight="0"
             marginwidth="0"
           ></iframe>
+
         </div>
       </Fade>
     </div>
