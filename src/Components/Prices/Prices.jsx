@@ -34,7 +34,7 @@ const Prices = () => {
             <div className="grid grid-cols-3 h-[10rem] bg-slate-700">
               <div className="mt-12 lg:mt-16 w-[7rem] lg:w-[20rem]">
                 <h2 className="text-lg lg:text-xl text-left relative left-6 lg:left-2">
-                  15 Ședințe de șofat a câte 1h si 30 min
+                  15 Ședințe de șofat a câte 1h si 40 min
                 </h2>
               </div>
               <div className="mt-16 ml-14 lg:ml-56">
