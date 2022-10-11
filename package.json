@@ -1,6 +1,7 @@
 {
   "name": "site",
   "version": "0.1.0",
+  "homepage": "https://www.scoaladesoferi-diculescuciprian.ro/",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.7.0",
