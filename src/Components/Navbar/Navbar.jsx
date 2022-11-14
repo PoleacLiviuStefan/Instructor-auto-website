@@ -32,11 +32,11 @@ const Navbar = () => {
     <div
       className={`flex  ${
         scrollPosition > 300
-          ? "md:bg-gradient-to-b from-black to-trasparent h-[7rem] bg-opacity-80 lg:backdrop-blur-sm md:animate-[appear_1s_ease-in-out]"
+          ? "md:bg-gradient-to-b from-black to-trasparent h-[7rem] bg-opacity-80 xl:backdrop-blur-sm md:animate-[appear_1s_ease-in-out]"
           : "absolute "
-      } fixed z-40  top-0 justify-around text-white items-center h-[4rem] w-full   drop-shadow-lg`}
+      } fixed z-40  top-0 justify-around text-white items-center h-[4rem] w-full   drop-shadow-xl`}
     >
-      <div className="  hidden lg:flex  relative justify-center items-center top-[1.5rem] h-[4rem] w-full">
+      <div className="  hidden xl:flex  relative justify-center items-center top-[1.5rem] h-[4rem] w-full">
         <Fade>
           <div className="absolute mr-[55rem] cursor-pointer">
             <Link
@@ -47,11 +47,11 @@ const Navbar = () => {
               offset={-70}
               duration={500}
             >
-              <h1 className="opacity-0 lg:opacity-100">
+              <h1 className="opacity-0 xl:opacity-100">
                 CIPRIAN
                 <br /> DICULESCU
               </h1>
-              <h1 className="text-neutral-200 text-thin opacity-0 lg:opacity-100">
+              <h1 className="text-neutral-200 text-thin opacity-0 xl:opacity-100">
                 INSTRUCTOR AUTO
               </h1>
             </Link>
@@ -64,7 +64,7 @@ const Navbar = () => {
             smooth={true}
             offset={-300}
           >
-            <h2 className="relative text-lg px-8  font-sans-serif cursor-pointer  hover:text-slate-200 ">
+            <h2 className="relative text-xl px-8  font-sans-serif cursor-pointer  hover:text-slate-200 ">
               Despre mine
               <span
                 className={` ${
@@ -81,7 +81,7 @@ const Navbar = () => {
             smooth={true}
             offset={-70}
           >
-            <h2 className="relative text-lg px-8  font-sans-serif cursor-pointer  hover:text-slate-200 ">
+            <h2 className="relative text-xl px-8  font-sans-serif cursor-pointer  hover:text-slate-200 ">
               Obținere permis
               <span
                 className={` ${
@@ -97,7 +97,7 @@ const Navbar = () => {
             smooth={true}
             offset={0}
           >
-            <h2 className="text-lg px-8  font-regular font-sans-serif  cursor-pointer hover:text-slate-200 ">
+            <h2 className="text-xl px-8  font-regular font-sans-serif  cursor-pointer hover:text-slate-200 ">
               Tarife
               <span
                 className={` ${
@@ -113,7 +113,7 @@ const Navbar = () => {
             smooth={true}
             offset={-150}
           >
-            <h2 className="relative text-lg px-8  font-sans-serif cursor-pointer hover:text-slate-200 ">
+            <h2 className="relative text-xl px-8  font-sans-serif cursor-pointer hover:text-slate-200 ">
               Contact
               <span
                 className={` ${

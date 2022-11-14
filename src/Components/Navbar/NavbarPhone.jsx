@@ -8,7 +8,7 @@ const NavbarPhone = () => {
     setHamburgerClicked((prev) => !prev);
   };
   return (
-    <div className="flex lg:hidden fixed left-0 top-0 z-50 w-full h-[10rem]">
+    <div className="flex xl:hidden fixed left-0 top-0 z-50 w-full h-[10rem]">
       <div
         onClick={hamburgerHandle}
         className="absolute flex z-50 w-[4rem] h-[3rem] flex-col  top-4 left-8 "
@@ -44,7 +44,7 @@ const NavbarPhone = () => {
               smooth={true}
               offset={-300}
             >
-              <h2 className="relative text-lg top-[4rem]  px-8 font-sans-serif cursor-pointer  hover:text-slate-200 ">
+              <h2 className="relative text-xl top-[4rem]  px-8 font-sans-serif cursor-pointer  hover:text-slate-200 ">
                 Despre mine
               </h2>
             </Link>
@@ -57,7 +57,7 @@ const NavbarPhone = () => {
               offset={-100}
               delay={0}
             >
-              <h2 className="relative text-lg top-[6rem] px-8  font-sans-serif cursor-pointer  hover:text-slate-200 ">
+              <h2 className="relative text-xl top-[6rem] px-8  font-sans-serif cursor-pointer  hover:text-slate-200 ">
                 Obținere permis
               </h2>
             </Link>
@@ -68,7 +68,7 @@ const NavbarPhone = () => {
               smooth={true}
               offset={-100}
             >
-              <h2 className="relative text-lg top-[8rem] px-8  font-regular font-sans-serif  cursor-pointer hover:text-slate-200 ">
+              <h2 className="relative text-xl top-[8rem] px-8  font-regular font-sans-serif  cursor-pointer hover:text-slate-200 ">
                 Tarife
               </h2>
             </Link>
@@ -79,7 +79,7 @@ const NavbarPhone = () => {
               smooth={true}
               offset={-250}
             >
-              <h2 className="relative top-[10rem] text-lg px-8  font-sans-serif cursor-pointer hover:text-slate-200 ">
+              <h2 className="relative top-[10rem] text-xl px-8  font-sans-serif cursor-pointer hover:text-slate-200 ">
                 Contact
               </h2>
             </Link>

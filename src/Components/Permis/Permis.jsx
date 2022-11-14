@@ -5,7 +5,7 @@ const Permis = () => {
     <div className="absolute h-[70rem] w-full flex-col bg-black bg-opacity-90 top-[250rem] flex items-center">
       <div className="relative text-white top-24 text-center">
         <h1 className="text-3xl font-bold">Obținere Permis Auto Categoria B</h1>
-        <h3 className="relative text-lg text-slate-200 top-2">
+        <h3 className="relative text-xl text-slate-200 top-2">
           Documente-Etape-Condiții de înscriere
         </h3>
         <h2 className="relative  text-xl top-8">

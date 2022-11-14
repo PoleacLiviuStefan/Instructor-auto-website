@@ -15,7 +15,7 @@ const CarCard = ({ bordercolor, backgr, description }) => {
     <div
       onMouseEnter={textappear}
       onMouseLeave={textdisappear}
-      className={` w-[17rem] h-[10rem] ${backgr} bg-cover drop-shadow-xl ml-10 ring-1 mt-12 lg:mt-0 ring-sky-500 shadow-[5px_5px_38px_5px_rgba(0,0,0,0.3)]   `}
+      className={` w-[17rem] h-[10rem] ${backgr} bg-cover drop-shadow-xl ml-10 ring-1 mt-12 xl:mt-0 ring-sky-500 shadow-[5px_5px_38px_5px_rgba(0,0,0,0.3)]   `}
     >
       <div className={`${show && "hidden"} absolute z-20  w-full h-full `}>
         <div className="absolute bottom-0 bg-gradient-to-b from-transparent to-black w-full h-[1rem] " />
@@ -27,12 +27,12 @@ const CarCard = ({ bordercolor, backgr, description }) => {
         <div
           className={` ${
             show ? "animate-[sideright_.5s_ease-in-out_forwards]" : "w-[1.5rem]"
-          } relative whitespace-nowrap flex items-center rounded-lg font-bold top-0 z-10 bg-opacity-60 bg-white   h-[10rem] text-center  `}
+          } relative whitespace-nowrap flex items-center rounded-xl font-bold top-0 z-10 bg-opacity-60 bg-white   h-[10rem] text-center  `}
         >
           <h2
             className={`${
               !show && "hidden"
-            } relative text-lg  ml-4  animate-[appear_.5s_ease-in-out] `}
+            } relative text-xl  ml-4  animate-[appear_.5s_ease-in-out] `}
           >
             {description}
           </h2>

@@ -1,5 +1,4 @@
 import React from "react";
-import Fade from "react-reveal/Fade";
 import { FaArrowDown } from "react-icons/fa";
 import CardHero from "./CardHero";
 import { AiOutlinePhone } from "react-icons/ai";
@@ -17,7 +16,7 @@ import Prices from "../Prices/Prices";
 import Footer from "../Footer/Footer";
 const Hero = () => {
   return (
-    <div className="absolute top-0 flex justify-center items-center  w-[100%] h-[420rem] lg:h-[270rem]">
+    <div className="absolute top-0 flex justify-center items-center  w-[100%] h-[420rem] xl:h-[270rem]">
       <div
         name="top"
         className="absolute  z-20 top-0 h-[6rem] w-full bg-gradient-to-b from-black to-transparent "
@@ -28,7 +27,7 @@ const Hero = () => {
           className="relative top-[20rem]
      text-white text-center"
         >
-          <Fade>
+         
             <h1 className="md:text-6xl text-4xl font-bold">
               Instructor <span className="text-sky-500">Auto</span>
             </h1>
@@ -53,9 +52,9 @@ const Hero = () => {
                 <BsChevronDown className="absolute text-xl ml-[8.5rem]" />{" "}
               </button>
             </Link>
-          </Fade>
+        
         </div>
-        <div className="absolute justify-around  w-[25rem] md:w-[90rem] flex flex-col items-center lg:flex-row mb-[15rem] top-[50rem] ">
+        <div className="absolute justify-around  w-[25rem] md:w-[90rem] flex flex-col items-center xl:flex-row mb-[15rem] top-[50rem] ">
        
             <a href="tel:+40-761-300-344">
               <CardHero
