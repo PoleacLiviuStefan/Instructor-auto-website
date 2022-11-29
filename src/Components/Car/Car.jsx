@@ -18,7 +18,7 @@ const Car = () => {
             <h1 className="relative left-[-5rem] text-xl xl:left-[5rem] xl:w-[50rem] w-[10rem]  text-white  h-[7rem]    xl:text-3xl  font-bold top-32">
               Volkswagen Polo S Cross 2008 1.9 TDI Cutie Manuală
               <div alt="Ciprian Diculescu-instructor auto VW POLO" className="bg-presentation bg-no-repeat bg-cover   absolute top-[-2rem] xl:top-[-7rem] left-[10rem]  xl:left-[45rem] w-[10rem] xl:w-[20rem] h-[7.5rem] xl:h-[15rem]"></div>
-              <span className="absolute w-[8rem]  xl:w-[6rem] h-[2px] bg-cyan-400 rounded-xl top-24 left-0 xl:top-14 xl:left-[35rem]  " />
+              <span className="absolute w-[5rem]  xl:w-[6rem] h-[2px] bg-cyan-400 rounded-xl top-[7rem] left-0 xl:top-14 xl:left-[35rem]  " />
             </h1>
           </div>
         
@@ -27,7 +27,7 @@ const Car = () => {
             <h1 alt="Ciprian Diculescu-instructor auto VW TOURAN" className="relative left-[5rem] xl:w-[50rem] text-xl w-[10rem] xl:left-[-5rem]  text-white xl:text-3xl h-[7rem]      font-bold top-32">
               Volkswagen Touran 2008 2.0 TDI Cutie Automată.
               <div className="bg-presentationleft bg-no-repeat bg-cover  absolute top-[-2rem] xl:top-[-7rem] left-[-11rem]  xl:left-[-20rem] w-[10rem] xl:w-[20rem] h-[7.5rem] xl:h-[15rem]"></div>
-              <span className="absolute w-[8rem]  xl:w-[6rem] h-[2px] bg-cyan-400 rounded-xl top-24 left-0 xl:top-14 xl:left-5  " />
+              <span className="absolute w-[6rem]  xl:w-[6rem] h-[2px] bg-cyan-400 rounded-xl top-[7rem] left-0 xl:top-14 xl:left-5  " />
             </h1>
           </div>
       </div>
