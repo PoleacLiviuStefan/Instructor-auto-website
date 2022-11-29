@@ -4,11 +4,11 @@ const CarCard = ({ bordercolor, backgr, description }) => {
   const [show, setShow] = useState(false);
   const textappear = () => {
     setShow(true);
-    console.log("da");
+    
   };
   const textdisappear = () => {
     setShow(false);
-    console.log(backgr);
+
   };
 
   return (

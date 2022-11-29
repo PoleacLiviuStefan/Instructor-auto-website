@@ -5,28 +5,6 @@ const Navbar = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
   const [underBar, setUnderBar] = useState(-1);
 
-  const handleScroll = () => {
-    const position = window.pageYOffset;
-
-    setScrollPosition(position);
-    console.log(position);
-  };
-  useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
-  setInterval(() => {
-    if (window.pageYOffset > 1000 && window.pageYOffset < 2701) setUnderBar(0);
-    else if (window.pageYOffset > 2700 && window.pageYOffset < 3500)
-      setUnderBar(1);
-    else if (window.pageYOffset >= 3500 && window.pageYOffset <= 4900)
-      setUnderBar(2);
-    else if (window.pageYOffset > 4900 && window.pageYOffset < 5303)
-      setUnderBar(3);
-  }, 1000);
 
   return (
     <div
