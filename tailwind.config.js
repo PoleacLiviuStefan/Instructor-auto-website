@@ -6,17 +6,16 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'hero': "url('/public/2021-11-04.jpg')",
-        'car': "url('/public/Volkswagen_Jetta_registered_March_2002_1984cc_02.jpg')",
-        'heromobile': "url('/public/phonehero.jpg')",
-        'presentation': "url('/public/presentationcar.png')",
-        'interior': "url('/public/interor.jpg')",
-        'exterior': "url('/public/exterior2.jpg')",
-        'presentationleft': "url('/public/presentationcarleft.png')",
-        'exterior3': "url('/public/exterior3.jpg')",
-        'automata1': "url('/public/automata1.jpg')",
-        'automata2': "url('/public/automata2.jpg')",
-        'automata3': "url('/public/automata3.jpg')"
+        'hero': "url('/public/backgroundVolkswagen.webp')",
+        'heromobile': "url('/public/backgroundVolkswagenmobile.jpg')",
+        'presentation': "url('/public/VolkswagenPoloSCrossCutieManuala.png')",
+        'interior': "url('/public/VolkswagenPoloSCrossCutieManualainteror.webp')",
+        'exterior': "url('/public/VolkswagenPoloSCrossCutieManualaexterior.webp')",
+        'presentationleft': "url('/public/VolkswagenTouranCutieAutomata.png')",
+        'exterior3': "url('/public/VolkswagenPoloSCrossCutieManualaexterior1.webp')",
+        'automata1': "url('/public/VolkswagenTouranCutieAutomataexterior.webp')",
+        'automata2': "url('/public/VolkswagenTouranCutieAutomataexteriorspate.webp')",
+        'automata3': "url('/public/VolkswagenTouranCutieAutomataexteriorfata.webp')"
       },
       keyframes: {
         loading: {
@@ -39,6 +38,19 @@ module.exports = {
           '100%': {
             width: '10.5rem',
             opacity: '1'
+          }
+        },
+        sideleft: {
+          '0%': {
+          
+            width: '10.5rem',
+            opacity: '1'
+          },
+         
+          '100%': {
+            width: '2rem',
+            whitespace: "no-wrap",
+            opacity: '0'
           }
         },
 

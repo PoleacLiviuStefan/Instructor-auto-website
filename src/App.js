@@ -1,11 +1,10 @@
 import Hero from "./Components/Hero/Hero";
 import Navbar from "./Components/Navbar/Navbar";
-
+import { Scrollbar } from 'react-scrollbars-custom';
 import { useState, useEffect } from 'react';
 import About from "./Components/About/About";
 import ClipLoader from "react-spinners/ClipLoader";
 import NavbarPhone from "./Components/Navbar/NavbarPhone";
-
 function App() {
 
   const [loading, setLoading] = useState(false);
@@ -20,6 +19,8 @@ function App() {
 
   return (
     <div className="flex justify-center items-center overflow-hidden flex-col" >
+      
+
       <div className=' bg-black h-screen w-full flex justify-center items-center'>
         {<>
 
@@ -35,7 +36,9 @@ function App() {
 
 
       </div>
+ 
     </div >
+   
   );
 }
 

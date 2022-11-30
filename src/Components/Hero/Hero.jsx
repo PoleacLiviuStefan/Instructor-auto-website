@@ -37,7 +37,7 @@ const Hero = () => {
             </h2>
 
             <h2 className="relative md:text-3xl  text-xl text-center md:top-20 top-24">
-              Județul Buzău
+              Judetul Buzău
             </h2>
             <Link
               activeClass="active"
@@ -48,7 +48,7 @@ const Hero = () => {
             >
               {" "}
               <button className="relative md:left-10 flex justify-center items-center top-40 bg-sky-600 w-[20rem] h-10 rounded-2xl ring-1 ring-white border-solid border-white hover:bg-sky-500">
-                Află mai multe{" "}
+                Afla mai multe{" "}
                 <BsChevronDown className="absolute text-xl ml-[8.5rem]" />{" "}
               </button>
             </Link>

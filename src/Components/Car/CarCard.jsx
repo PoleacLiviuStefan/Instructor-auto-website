@@ -2,13 +2,19 @@ import React from "react";
 import { useState } from "react";
 const CarCard = ({ bordercolor, backgr, description }) => {
   const [show, setShow] = useState(false);
-  const textappear = () => {
+  const [textShow,setTextShow]=useState (false);
+  const  textappear = async () => {
     setShow(true);
+    await setTimeout(()=>{
+      setTextShow(true)
+    },700)
     
   };
   const textdisappear = () => {
     setShow(false);
-
+   
+      setTextShow(false)
+    
   };
 
   return (
@@ -24,15 +30,19 @@ const CarCard = ({ bordercolor, backgr, description }) => {
         <div className="absolute right-0 bg-gradient-to-r from-transparent to-black w-[1rem] h-full " />
       </div>
       <div className="w-full h-full ">
+      <div className={`${
+            show ? "animate-[sideright_.5s_ease-in-out_forwards]" : "animate-[sideleft_.5s_ease-in-out_forwards]"
+          } absolute left-0 h-[10rem] whitespace-nowrap flex  rounded-xl font-bold top-0 z-10 bg-opacity-40 bg-white  `} />
         <div
           className={` ${
-            show ? "animate-[sideright_.5s_ease-in-out_forwards]" : "w-[1.5rem]"
-          } relative whitespace-nowrap flex items-center rounded-xl font-bold top-0 z-10 bg-opacity-60 bg-white   h-[10rem] text-center  `}
+            show ? "animate-[sideright_.5s_ease-in-out_forwards_.5s]" : "animate-[sideleft_.5s_ease-in-out_forwards] "
+          } absolute left-0  whitespace-nowrap flex items-center rounded-xl font-bold top-0 z-20 bg-opacity-60 bg-white   h-[10rem] text-center  `}
         >
+           
           <h2
             className={`${
-              !show && "hidden"
-            } relative text-xl  ml-4  animate-[appear_.5s_ease-in-out] `}
+              !textShow && "hidden"
+            } relative text-[1.15rem] ml-3  animate-[appear_.5s_ease-in-out_forwards] `}
           >
             {description}
           </h2>
