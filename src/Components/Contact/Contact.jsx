@@ -37,10 +37,10 @@ const Contact = () => {
           >
             <div className="absolute xl:relative flex justify-center items-center xl:h-full h-[7rem] w-full xl:w-[20rem] bg-gradient-to-t from-sky-600 to-sky-300 text-white">
               <h1 className="absolute xl:top-[15rem] text-2xl xl:text-4xl font-bold  xl:mt-10  ">
-                Ai o întrebare?
+                Ai o intrebare?
               </h1>
               <h2 className="absolute top-20 xl:top-[21rem] text-xl">
-                Nu ezita să mă întrebi!
+                Nu ezita să ma intrebi!
               </h2>
             </div>
             <form

@@ -22,19 +22,19 @@ const Prices = () => {
               </div>
               <div className="xl:ml-20 ml-4 w-[7rem] xl:w-[20rem]">
                 <h2 className="text-xl xl:text-xl  text-center relative xl:top-14 top-10">
-                  Tarife Pentru Mașină Cu Transmisie Manuală
+                  Tarife Pentru Masina Cu Transmisie Manuala
                 </h2>
               </div>
               <div className="xl:ml-20 ml-2 w-[7rem] xl:w-[20rem]">
                 <h2 className="text-xl xl:text-xl  text-center relative xl:top-14 top-10">
-                  Tarife Pentru Mașină Cu Transmisie Automată
+                  Tarife Pentru Masina Cu Transmisie Automata
                 </h2>
               </div>
             </div>
             <div className="grid grid-cols-3 h-[10rem] bg-slate-700">
               <div className="mt-12 xl:mt-16 w-[7rem] xl:w-[20rem]">
                 <h2 className="text-xl xl:text-xl text-left relative left-6 xl:left-2">
-                  15 Ședințe de șofat a câte 1h si 40 min
+                  15 Sedinte de sofat a cate 1h si 40 min
                 </h2>
               </div>
               <div className="mt-16 ml-14 xl:ml-56">
@@ -52,7 +52,7 @@ const Prices = () => {
             <div className="grid grid-cols-3 h-[10rem]">
               <div className="mt-8 xl:mt-16 w-[7rem] xl:w-[20rem]">
                 <h2 className="text-xl xl:text-xl text-left relative left-6 xl:left-2">
-                  Asistentă învățare legislație și chestionare auto
+                  Asistentă învatare legislatie și chestionare auto
                 </h2>
               </div>
               <div className="mt-16 ml-14 xl:ml-56 ">
@@ -69,7 +69,7 @@ const Prices = () => {
             <div className="grid grid-cols-3 h-[10rem]">
               <div className="mt-16 w-[9rem] xl:w-[20rem]">
                 <h2 className="text-xl xl:text-xl text-left relative left-6 xl:left-2">
-                  Pregătire dosar școlarizare
+                  Pregatire dosar scolarizare
                 </h2>
               </div>
               <div className="mt-16 ml-14 xl:ml-56 ">
@@ -99,13 +99,13 @@ const Prices = () => {
           </div>
           <div className="relative top-44 left-8  xl:left-[-2rem]">
             <ul className="text-xl xl:text-2xl list-disc xl:mr-0 mr-20">
-              <li>ORAR FLEXIBIL - în functie de programul dumneavoastră.</li>
+              <li>ORAR FLEXIBIL - in functie de programul dumneavoastra.</li>
               <li className="relative top-4">
-                Prețul fiecărui pachet include carburantul - benzina sau
+                Pretul fiecarui pachet include carburantul - benzina sau
                 motorina.
               </li>
               <li className="relative top-8">
-                Plata se poate face și în 3 RATE
+                Plata se poate face si în 3 RATE
               </li>
             </ul>
           </div>

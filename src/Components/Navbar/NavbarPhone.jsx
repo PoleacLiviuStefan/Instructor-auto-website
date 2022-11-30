@@ -58,7 +58,7 @@ const NavbarPhone = () => {
               delay={0}
             >
               <h2 className="relative text-xl top-[6rem] px-8  font-sans-serif cursor-pointer  hover:text-slate-200 ">
-                Obținere permis
+                Obtinere permis
               </h2>
             </Link>
             <Link

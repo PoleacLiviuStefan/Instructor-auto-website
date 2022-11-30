@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="relative top-2">
             <h3 className="text-sm">©Ciprian Diculescu</h3>
             <h3 className="text-sm cursor-pointer hover:text-slate-300">
-              Termeni și condiții
+              Termeni si conditii
             </h3>
           </div>
         </div>

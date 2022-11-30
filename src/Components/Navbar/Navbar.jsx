@@ -8,11 +8,10 @@ const Navbar = () => {
 
   return (
     <div
-      className={`flex  ${
-        scrollPosition > 300
-          ? "md:bg-gradient-to-b from-black to-trasparent h-[7rem] bg-opacity-80 xl:backdrop-blur-sm md:animate-[appear_1s_ease-in-out]"
-          : "absolute "
-      } fixed z-40  top-0 justify-around text-white items-center h-[4rem] w-full   drop-shadow-xl`}
+      className={`flex  
+      md:bg-gradient-to-b from-black to-trasparent h-[7rem] bg-opacity-80 xl:backdrop-blur-sm md:animate-[appear_1s_ease-in-out]
+       
+      fixed z-40  top-0 justify-around text-white items-center h-[4rem] w-full   drop-shadow-xl`}
     >
       <div className="  hidden xl:flex  relative justify-center items-center top-[1.5rem] h-[4rem] w-full">
         <Fade>
@@ -60,7 +59,7 @@ const Navbar = () => {
             offset={-70}
           >
             <h2 className="relative text-xl px-8  font-sans-serif cursor-pointer  hover:text-slate-200 ">
-              Obținere permis
+              Obtinere permis
               <span
                 className={` ${
                   underBar == 1 ? "block" : "hidden"

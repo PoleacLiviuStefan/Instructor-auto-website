@@ -18,16 +18,16 @@ const About = () => {
       <Fade delay={400}>
         <p className="relative top-24 leading-6 xl:w-[50rem] w-[80%] text-justify">
           Numele meu este Ciprian Diculescu, am 42 de ani și sunt instructor
-          auto atestat încă din 2009.Scopul meu este de a te ajuta în învățarea
-          adecvată a artei condusului pentru dobândirea permisului de categoria
+          auto atestat inca din 2009.Scopul meu este de a te ajuta în învatarea
+          adecvata a artei condusului pentru dobandirea permisului de categoria
           B.
           <br />
-          Deprinderea cu succes a manevrelor auto reprezintă o prioritate pentru
-          mine, deoarece un început corect te poate ajuta să circuli în
-          siguranță și cu încredere.
+          Deprinderea cu succes a manevrelor auto reprezinta o prioritate pentru
+          mine, deoarece un inceput corect te poate ajuta sa circuli în
+          siguranta si cu incredere.
           <br />
-          Te ajut să devii un șofer, nu doar un conducător de autoturism.Ce mai
-          aștepți?Contactează-mă și începem numaidecât!
+          Te ajut să devii un sofer, nu doar un conducator de autoturism.Ce mai
+          astepti?Contacteaza-ma si incepem numaidecat!
         </p>
       </Fade>
     </div>

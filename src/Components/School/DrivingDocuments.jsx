@@ -10,27 +10,27 @@ const DrivingDocuments = () => {
       <Fade delay={300}>
         <div className="relative md:left-0 left-6 top-8 w-[19rem] md:w-[60rem] ">
           <h1 className="relative left-2 text-2xl font-bold">
-            Școala de șoferi
+            Scoala de soferi
             <span className="relative text-sky-500 left-2">categoria B</span>
           </h1>
 
           <h3 className="relative left-6 text-xl font-bold mt-4">
-            Ce implică școala de șoferi:
+            Ce implica scoala de soferi:
           </h3>
           <ul className="relative text-xl left-8 mt-2 mb-4 leading-7 list-disc">
-            <li>10 ore de legislație rutieră</li>
-            <li>30 de ore de conducere, cu începere imediată.</li>
+            <li>10 ore de legislatie rutiera</li>
+            <li>30 de ore de conducere, cu incepere imediata.</li>
             <li>
-              Perioada de școlarizare minimă de
+              Perioada de scolarizare minima de
               <span className="relative font-bold text-sky-500 left-2">
-                5 săptămâni
+                5 saptamani
               </span>
             </li>
           </ul>
 
           <h2 className="relative left-6 text-xl font-bold mt-4 ">
             Programul de lucru pentru orele de{" "}
-            <span className="text-sky-500">legislație rutieră</span>:
+            <span className="text-sky-500">legislatie rutiera</span>:
           </h2>
           <ul className="relative left-8 text-xl mt-2 leading-7 list-disc">
             <li>
@@ -42,7 +42,7 @@ const DrivingDocuments = () => {
             <li>Sala de curs moderna cu dotari noi, simulator auto.</li>
             <li>
               Programul de lucru pentru orele de conducere este flexibil, se
-              stabilește impreună cu elevul cursant
+              stabileste impreuna cu elevul cursant
             </li>
           </ul>
           <h2 className="relative left-6 text-xl font-bold mt-4">
@@ -56,10 +56,10 @@ const DrivingDocuments = () => {
             <li>Aviz Psihologic – valabilitate 1 an</li>
           </ul>
           <h2 className="relative left-6 text-xl font-bold mt-4">
-            Informații <span className="text-sky-500">Importante</span>:
+            Informatii <span className="text-sky-500">Importante</span>:
           </h2>
           <ul className="relative left-8 text-xl leading-7 mt-2 list-disc">
-            <li>Valabilitatea scoli de soferi este de 1 an.</li>
+            <li>Valabilitatea scolii de soferi este de 1 an.</li>
             <li>
               Analizele medicale si avizul psihologic se elibereaza de catre
               medic si are valabilitatea tot de 1 an calendaristic.
@@ -76,7 +76,7 @@ const DrivingDocuments = () => {
         </div>
         <div className="relative top-20 flex left-16 justify-center">
           <h2 className="absolute top-0 w-[22rem] text-center font-bold left-[-3rem] xl:left-0 text-2xl">
-            Locația unde se desfășoară orele de legislație
+            Locatia unde se desfasoară orele de legislație
           </h2>
           <div className="absolute right-[6rem] animate-[animarrow_1s_ease-in-out_infinite] ">
             <i className=" flex flex-col absolute text-2xl top-[2rem]   ">
