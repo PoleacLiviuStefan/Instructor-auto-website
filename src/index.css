@@ -5,6 +5,7 @@
 
 html {
   max-width: 100%;
+  overscroll-behavior: none
 }
 body {
   margin: 0;
