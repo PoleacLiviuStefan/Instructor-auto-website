@@ -1,13 +1,14 @@
 import React from "react";
 import { AiFillCheckCircle } from "react-icons/ai";
 import Fade from "react-reveal/Fade";
+
 const Prices = () => {
   return (
     <div
       name="Tarife"
       className="absolute  flex items-center flex-col xl:top-[270rem] top-[420rem]  w-full h-[100rem] xl:h-[95rem]   bg-slate-800 text-white bg-opacity-100 "
     >
-      
+        <Fade >
         <div className="relative top-20">
           <h1 className="relative text-3xl xl:text-4xl left-4  font-bold">
             Tarife
@@ -110,7 +111,7 @@ const Prices = () => {
             </ul>
           </div>
         </div>
-    
+        </Fade>
     </div>
   );
 };

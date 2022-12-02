@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-const CarCard = ({ bordercolor, backgr, description }) => {
+const CarCard = ({ bordercolor, backgr, description,altimg }) => {
   const [show, setShow] = useState(false);
   const [textShow,setTextShow]=useState (false);
   const  textappear = async () => {
@@ -21,6 +21,7 @@ const CarCard = ({ bordercolor, backgr, description }) => {
     <div
       onMouseEnter={textappear}
       onMouseLeave={textdisappear}
+      alt={altimg}
       className={` w-[17rem] h-[10rem] ${backgr} bg-cover drop-shadow-xl ml-10 ring-1 mt-12 xl:mt-0 ring-sky-500 shadow-[5px_5px_38px_5px_rgba(0,0,0,0.3)]   `}
     >
       <div className={`${show && "hidden"} absolute z-20  w-full h-full `}>

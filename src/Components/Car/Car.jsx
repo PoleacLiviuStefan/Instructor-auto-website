@@ -24,9 +24,9 @@ const Car = () => {
         
         
           <div className="relative bg-slate-700  w-full flex justify-center h-[17rem]">
-            <h1 alt="Ciprian Diculescu-instructor auto VW TOURAN" className="relative left-[5rem] xl:w-[50rem] text-xl w-[10rem] xl:left-[-5rem]  text-white xl:text-3xl h-[7rem]      font-bold top-32">
+            <h1  className="relative left-[5rem] xl:w-[50rem] text-xl w-[10rem] xl:left-[-5rem]  text-white xl:text-3xl h-[7rem]      font-bold top-32">
               Volkswagen Touran 2008 2.0 TDI Cutie Automata.
-              <div className="bg-presentationleft bg-no-repeat bg-cover  absolute top-[-2rem] xl:top-[-7rem] left-[-11rem]  xl:left-[-20rem] w-[10rem] xl:w-[20rem] h-[7.5rem] xl:h-[15rem]"></div>
+              <div alt="Ciprian Diculescu-instructor auto VW TOURAN" className="bg-presentationleft bg-no-repeat bg-cover  absolute top-[-2rem] xl:top-[-7rem] left-[-11rem]  xl:left-[-20rem] w-[10rem] xl:w-[20rem] h-[7.5rem] xl:h-[15rem]"></div>
               <span className="absolute w-[6rem]  xl:w-[6rem] h-[2px] bg-cyan-400 rounded-xl top-[7rem] left-0 xl:top-14 xl:left-5  " />
             </h1>
           </div>
@@ -37,6 +37,7 @@ const Car = () => {
             bordercolor={color[0]}
             backgr="bg-interior"
             description="   VW POLO  "
+            altimg="VolkswagenPoloSCrossCutieManuala"
           />
         </Fade>
         <Fade delay={400}>
@@ -44,6 +45,7 @@ const Car = () => {
             bordercolor={color[1]}
             backgr="bg-exterior"
             description="1.9 TDI"
+            altimg="Motor1.9TDI"
           />
         </Fade>
         <Fade delay={400}>
@@ -51,6 +53,7 @@ const Car = () => {
             bordercolor={color[3]}
             backgr="bg-exterior3  "
             description="CUTIE MANUALA"
+            altimg="CutieManuala"
           />
         </Fade>
         <Fade delay={400}>
@@ -58,6 +61,7 @@ const Car = () => {
             bordercolor={color[2]}
             backgr="bg-automata1  "
             description="VW TOURAN"
+            altimg="VolkswagenTouranCutieAutomata"
           />
         </Fade>
         <Fade delay={400}>
@@ -65,6 +69,7 @@ const Car = () => {
             bordercolor={color[1]}
             backgr="bg-automata2  "
             description="2.0 TDI"
+            altimg="Motor2.0TDI"
           />
         </Fade>
         <Fade delay={400}>
@@ -72,6 +77,7 @@ const Car = () => {
             bordercolor={color[0]}
             backgr="bg-automata3   "
             description="CUTIE AUTOMATA"
+            altimg="CutieAutomata"
           />
         </Fade>
       </div>

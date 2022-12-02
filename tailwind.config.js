@@ -97,6 +97,62 @@ module.exports = {
 
           }
         },
+        linerotates: {
+          '0%': {
+            transform:'rotate(0deg)'
+          },
+          '100%': {
+            transform:'rotate(45deg)'
+
+          }
+        },
+        linerotatef: {
+          '0%': {
+            top:"0px",
+            transform:"rotate(0deg)"
+          },
+          '100%': {
+            top:"5.8px",
+            transform: 'rotate(135deg)'
+
+          }
+        },
+        linerotatereverses: {
+          '0%': {
+            transform:'rotate(45deg)'
+          },
+          '100%': {
+            transform:'rotate(0deg)'
+
+          }
+        },
+        linerotatereversef: {
+          '0%': {
+            top:"5.8px",
+            transform: 'rotate(135deg)'
+          },
+          '100%': {
+            top:"0px",
+            transform:"rotate(0deg)"
+
+          }
+        },
+        menudisappear:{
+          '0%':{
+            width:"12rem"
+          },
+          '100%':{
+            width:"0rem"
+          }
+        },
+        layerappear:{
+          '0%':{
+            width:"0rem"
+          },
+          '100%':{
+            width:"12rem"
+          }
+        },
       }
     },
   },

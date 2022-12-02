@@ -76,7 +76,7 @@ const DrivingDocuments = () => {
         </div>
         <div className="relative top-20 flex left-16 justify-center">
           <h2 className="absolute top-0 w-[22rem] text-center font-bold left-[-3rem] xl:left-0 text-2xl">
-            Locatia unde se desfasoară orele de legislație
+            Locatia unde se desfasoara orele de legislatie
           </h2>
           <div className="absolute right-[6rem] animate-[animarrow_1s_ease-in-out_infinite] ">
             <i className=" flex flex-col absolute text-2xl top-[2rem]   ">

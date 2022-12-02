@@ -7,6 +7,7 @@ import { AiOutlineCheck } from "react-icons/ai";
 import { BsChevronDown } from "react-icons/bs";
 import About from "../About/About";
 import Slide from "react-reveal/Slide";
+import Fade from "react-reveal/Fade";
 import Car from "../Car/Car";
 import Contact from "../Contact/Contact";
 import DrivingDocuments from "../School/DrivingDocuments";
@@ -16,6 +17,7 @@ import Prices from "../Prices/Prices";
 import Footer from "../Footer/Footer";
 const Hero = () => {
   return (
+ 
     <div className="absolute top-0 flex justify-center items-center  w-[100%] h-[420rem] xl:h-[270rem]">
       <div
         name="top"
@@ -23,6 +25,7 @@ const Hero = () => {
       />
 
       <div className="relative bg-fixed  flex justify-center bg-heromobile  md:bg-hero drop-shadow-2xl bg-no-repeat bg-cover w-full top-0 h-full">
+      <Fade >
         <div
           className="relative top-[20rem]
      text-white text-center"
@@ -37,7 +40,7 @@ const Hero = () => {
             </h2>
 
             <h2 className="relative md:text-3xl  text-xl text-center md:top-20 top-24">
-              Judetul Buzău
+              Buzau
             </h2>
             <Link
               activeClass="active"
@@ -45,6 +48,7 @@ const Hero = () => {
               spy={true}
               smooth={true}
               offset={-200}
+              href="About"
             >
               {" "}
               <button className="relative md:left-10 flex justify-center items-center top-40 bg-sky-600 w-[20rem] h-10 rounded-2xl ring-1 ring-white border-solid border-white hover:bg-sky-500">
@@ -54,6 +58,7 @@ const Hero = () => {
             </Link>
         
         </div>
+        
         <div className="absolute justify-around  w-[25rem] md:w-[90rem] flex flex-col items-center xl:flex-row mb-[15rem] top-[50rem] ">
        
             <a href="tel:+40-761-300-344">
@@ -74,12 +79,12 @@ const Hero = () => {
         
             <CardHero
               slider="left"
-              title="+75% Rată De Promovabilitate"
+              title="+75% Rata De Promovabilitate"
               logo={<AiOutlineCheck />}
             />
           
         </div>
-
+        </Fade>
         <About />
         <Car />
 

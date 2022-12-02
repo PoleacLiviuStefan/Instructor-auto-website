@@ -14,6 +14,7 @@ const Navbar = () => {
       fixed z-40  top-0 justify-around text-white items-center h-[4rem] w-full   drop-shadow-xl`}
     >
       <div className="  hidden xl:flex  relative justify-center items-center top-[1.5rem] h-[4rem] w-full">
+        
         <Fade>
           <div className="absolute mr-[55rem] cursor-pointer">
             <Link
@@ -23,6 +24,7 @@ const Navbar = () => {
               smooth={true}
               offset={-70}
               duration={500}
+              href="totop"
             >
               <h1 className="opacity-0 xl:opacity-100">
                 CIPRIAN
@@ -40,6 +42,7 @@ const Navbar = () => {
             spy={true}
             smooth={true}
             offset={-300}
+            href="About"
           >
             <h2 className="relative text-xl px-8  font-sans-serif cursor-pointer  hover:text-slate-200 ">
               Despre mine
@@ -57,6 +60,7 @@ const Navbar = () => {
             spy={true}
             smooth={true}
             offset={-70}
+            href="Permis"
           >
             <h2 className="relative text-xl px-8  font-sans-serif cursor-pointer  hover:text-slate-200 ">
               Obtinere permis
@@ -73,6 +77,7 @@ const Navbar = () => {
             spy={true}
             smooth={true}
             offset={0}
+            href="Tarfie"
           >
             <h2 className="text-xl px-8  font-regular font-sans-serif  cursor-pointer hover:text-slate-200 ">
               Tarife
@@ -89,6 +94,7 @@ const Navbar = () => {
             spy={true}
             smooth={true}
             offset={-150}
+            href="Contact"
           >
             <h2 className="relative text-xl px-8  font-sans-serif cursor-pointer hover:text-slate-200 ">
               Contact
